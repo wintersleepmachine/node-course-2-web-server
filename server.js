@@ -60,6 +60,10 @@ app.get("/about", (req, res) => {
     })
 })
 
+app.get("/project", (req, res) => {
+    res.render("project.hbs")
+})
+
 
 app.get("/bad", (req, res) => {
     res.send({
